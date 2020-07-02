@@ -16,8 +16,5 @@ pluginManagement {
 
 include(
         ":common",
-        ":android-app",
-        ":javafx-app",
-        ":js-app",
-        ":spring-boot-app"
+        ":android-app"
 )

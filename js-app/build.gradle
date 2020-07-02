@@ -7,12 +7,12 @@ apply {
 }
 
 dependencies {
-    compile("org.jetbrains.kotlin:kotlin-stdlib-js:$Versions.kotlin")
-    compile("org.jetbrains.kotlinx:kotlinx-html:$Versions.kotlinxHtml")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-js:$Versions.kotlin")
+    implementation("org.jetbrains.kotlinx:kotlinx-html:$Versions.kotlinxHtml")
 
-    compile("org.jetbrains:kotlin-react:$Versions.kotlinReact")
-    compile("org.jetbrains:kotlin-react-dom:$Versions.kotlinReact")
-    compile(project(":common"))
+    implementation("org.jetbrains:kotlin-react:$Versions.kotlinReact")
+    implementation("org.jetbrains:kotlin-react-dom:$Versions.kotlinReact")
+    implementation(project(":common"))
 }
 
 compileKotlin2Js {
